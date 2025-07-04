@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>No Internet - Muslamix</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #000000;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+
+      .offline-container {
+        text-align: center;
+      }
+
+      .offline-illustration {
+        width: 180px;
+        height: auto;
+        margin-bottom: 2rem;
+      }
+
+      .offline-title {
+        margin: 20px 0 24px 0;
+        font-size: 1.25rem;
+        color: #fff;
+        font-weight: 500;
+        text-shadow: 0 2px 8px #000a;
+      }
+
+      .ok-button {
+        padding: 12px 36px;
+        font-size: 1.1rem;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 24px;
+        cursor: pointer;
+        font-weight: 600;
+        box-shadow: 0 2px 12px #0008;
+        transition: background 0.2s, box-shadow 0.2s;
+      }
+
+      .ok-button:hover {
+        background-color: #444;
+        box-shadow: 0 4px 18px #222a;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="offline-container">
+      <img
+        src="assets/Muslamixgray.svg"
+        alt="No Internet"
+        class="offline-illustration"
+      />
+      <h2 class="offline-title">You're offline. Check your connection and try again.</h2>
+      <button class="ok-button" onclick="window.location.reload()">
+        Ok
+      </button>
+    </div>
+  </body>
+</html>

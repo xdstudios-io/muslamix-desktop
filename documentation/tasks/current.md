@@ -53,7 +53,21 @@
 - [ ] Verify website loading performance
 - [ ] Check memory usage and optimization
 
+## Feature: Splash & No Internet Screens
+- [ ] Set up React frontend (rsbuild)
+- [ ] Implement Splash Screen (with animation)
+- [ ] Implement No Internet Screen (with animation and retry logic)
+
+## Dependencies Added
+- [ ] React (rsbuild)
+- [ ] framer-motion or react-spring
+
+## Documentation Updates
+- [x] Update PRD
+- [ ] Update API docs
+- [x] Update master task list
+
 ## Last Updated
-Date: 2024-05-31
+Date: 2024-06-09
 Updated By: AI Assistant
-Changes: Created current task tracking, prioritized next development steps 
+Changes: Added tasks for Splash & No Internet Screens and frontend setup 

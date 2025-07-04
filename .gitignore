@@ -3,7 +3,8 @@ node_modules/
 
 # Build output
 dist/
-
+exe/*.exe
+exe/win-unpacked/
 # OS generated files
 .DS_Store
 Thumbs.db

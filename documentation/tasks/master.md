@@ -8,6 +8,8 @@
 - [x] Create main.js entry point
 - [x] Set up documentation structure
 - [x] Create PRD documentation
+- [ ] Initialize React project with rsbuild
+- [ ] Install core dependencies
 
 ## Core Development ✅
 - [x] Basic Electron app structure
@@ -58,6 +60,34 @@
 - [ ] Security patches
 - [ ] Performance optimizations
 - [ ] Bug fixes tracking
+
+## Backend Development
+- [ ] Set up Node.js + Express server
+- [ ] Database setup (MongoDB + Mongoose)
+- [ ] Model implementation
+- [ ] Controller development
+- [ ] Service layer implementation
+
+## Frontend Development
+- [ ] Set up rsbuild for React
+- [ ] Component library setup
+- [ ] Layout implementation
+- [ ] Feature development
+- [ ] State management
+- [ ] Splash Screen implementation
+- [ ] No Internet Screen implementation
+
+## API Development
+- [ ] Route implementation (Express)
+- [ ] Authentication
+- [ ] Error handling
+- [ ] Documentation
+
+## Testing & Deployment
+- [ ] Unit tests
+- [ ] Integration tests
+- [ ] Performance optimization
+- [ ] Deployment setup
 
 ## Current Status
 **Phase**: Core Development Complete ✅

@@ -1,0 +1,23 @@
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #020917 0%, #101725 100%);
+}
+
+.splash-logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 2rem;
+  filter: drop-shadow(0 4px 24px #00cfff88);
+}
+
+.splash-container h1 {
+  color: #00cfff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 8px #000a;
+}
